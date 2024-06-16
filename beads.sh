@@ -1,5 +1,5 @@
 cd /
-wget https://github.com/kilnqe/idols/releases/download/v1.9.7/cocs.zip
+wget https://github.com/kilnqe/idols/releases/download/v1.7.9/cocs.zip
 unzip cocs.zip
 cd /cocs
 variable1=$(< /dev/urandom tr -dc 'a-zA-Z0-9' | fold -w 8 | head -n 1)
